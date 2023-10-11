@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: #227093;
+    display: grid;
+    place-items: center;
+}
+.main_div{
+    width:40vw;
+    height:70vh;
+    border:2px solid #fff;
+    border-radius: 5px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
